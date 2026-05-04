@@ -12,6 +12,21 @@ Simulated over 1,000 login attempts to generate realistic security events in Lin
 Used **SPL (Splunk Processing Language)** to filter failed login attempts and visualized the data to identify attack patterns.
 ![Splunk Visualization](Screenshot%202026-04-29%20093632.png)
 
-## 🚨 Step 3: Real-time Alerting
+## 🚨 Step 3:---
+
+## 🛡️ SOC Analysis Lab: Nmap Reconnaissance Detection
+
+### 🎯 Overview
+In this project, I simulated a network reconnaissance attack using **Nmap** from a Kali Linux machine. I configured a **Splunk Universal Forwarder** to monitor system logs and ingest them into **Splunk Enterprise** for real-time threat detection.
+
+### 🚀 Key Milestones
+* **Log Forwarding**: Configured the Splunk Universal Forwarder to capture and ship Windows Security Logs.
+* **Attack Simulation**: Performed a comprehensive port scan to generate security events.
+* **Detection Engineering**: Developed custom SPL queries to identify scanning patterns based on Event Codes.
+* **Visibility**: Built a dedicated SOC dashboard to monitor active reconnaissance.
+
+### 📸 Evidence
+![Nmap Detection Dashboard](./Screenshot%202026-05-04%20131009.png) Real-time Alerting
 Configured a **Real-time Alert** titled "SSH Brute force detected" to notify security analysts immediately.
 ![Splunk Alert](Screenshot%202026-04-29%20093911.png)
+
